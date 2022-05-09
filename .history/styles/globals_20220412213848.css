@@ -5,14 +5,14 @@
 
 @layer components {
     .navBtn {
-        @apply h-6 md:inline-flex cursor-pointer
+        @apply h-6 hidden md:inline-flex cursor-pointer
         transition-all duration-150 ease-out
     }
 }
 
 @layer components {
     .btn {
-        @apply h-6 hover:text-gray-400 cursor-pointer
+        @apply h-4 hover:text-gray-400 cursor-pointer
         transition-all duration-150 ease-out
     }
 }

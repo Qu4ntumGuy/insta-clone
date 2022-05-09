@@ -11,7 +11,7 @@ import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid";
 
 const Post = ({ username, img, userImg, caption }) => {
   return (
-    <div className="bg-white border rounded-sm text-sm border-none">
+    <div className="bg-white my-7 border rounded-sm text-sm">
       <div className="flex items-center p-5">
         <img
           src={userImg}

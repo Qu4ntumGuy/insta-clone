@@ -14,7 +14,7 @@ const Stories = () => {
   }, []);
 
   return (
-    <div className=" flex space-x-4 p-5 rounded-sm border-gray-300 
+    <div className=" flex space-x-4 p-6 rounded-sm border-gray-300 
     border overflow-x-scroll scrollbar-hide">
       {suggestions.map((profile) => (
         <Story

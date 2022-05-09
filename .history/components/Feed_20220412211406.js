@@ -5,16 +5,15 @@ import Suggestions from "./Suggestions";
 
 const Feed = () => {
   return (
-    <main className=" sm:mt-5 grid grid-cols-1 md:grid-cols-2 md:max-w-3xl
-     xl:grid-cols-3 xl:max-w-6xl mx-auto ">
-      <section className=" col-span-2">
+    <main className=" p-5 flex flex-row w-screen justify-center">
+      <section className="flex flex-col xl:w-[35%] lg:w-[53%] md:w-[90%]">
         {/* Story  */}
         <Stories />
         <Posts />
         {/*Post */}
       </section>
 
-      <div className=" hidden lg:block ">
+      <div className="hidden lg:block">
         <MiniProfile />
         <Suggestions />
       </div>

@@ -14,7 +14,7 @@ const Feed = () => {
         {/*Post */}
       </section>
 
-      <div className=" hidden lg:block ">
+      <div className=" hidden lg:block lg:bg-fixed">
         <MiniProfile />
         <Suggestions />
       </div>

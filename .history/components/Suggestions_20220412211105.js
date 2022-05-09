@@ -17,8 +17,8 @@ const Suggestions = () => {
     <div className="mt-4 ml-10"> 
       <div className="flex justify-between text-sm mb-5">
         <h3 className="text-sm font-bold 
-        text-gray-400">Suggestion For You</h3>
-        <button className="font-semibold">See All</button>
+        text-gray-400">Suggestion for you</h3>
+        <button className="text-gray-600 font-semibold">See All</button>
       </div>
     </div>
   );
