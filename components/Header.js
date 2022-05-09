@@ -13,21 +13,16 @@ import { HomeIcon } from "@heroicons/react/solid";
 const Header = () => {
   return (
     <div className="mx-5 shadow-sm border-b bg-white sticky top-0">
-      <div className="flex justify-between max-w-4xl lg:mx-auto">
-        <div className="relative hidden md:inline w-24 cursor-pointer">
+      <div className="flex justify-between max-w-screen-xl lg:mx-auto">
+        <div className="relative w-24 cursor-pointer">
           <Image
             src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo.png"
             layout="fill"
             objectFit="contain"
           />
         </div>
-
-        <div className="md:hidden flex items-center">
-          <CameraIcon className="h-6 w-6" />
-        </div>
-
-        <div>
-          <div className="relative m-1 p-2 rounded-md md:in">
+        <div className="">
+          <div className="relative m-1 p-2 rounded-md hidden md:block ">
             <div className=" absolute inset-y-0  pl-3 flex items-center">
               <SearchIcon className=" h-5 w-5 text-gray-500" />
             </div>
